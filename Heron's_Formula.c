@@ -1,5 +1,5 @@
-Find the area of Triangle using Heron's formula.
-Hint:Heron's Formula= sqrt(s*(s-a)*(s-b)*(s-c).where a,b,c are sides.
+//Find the area of Triangle using Heron's formula.
+//Hint:Heron's Formula= sqrt(s*(s-a)*(s-b)*(s-c).where a,b,c are sides.
 
   #include<stdio.h>
 
