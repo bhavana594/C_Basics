@@ -1,0 +1,12 @@
+//Find out the given number is odd or even
+#include<stdio.h>
+int main()
+{
+int n;
+scanf("%d",&n);
+if(n%2 ==0)
+printf("The given number is Even");
+else
+printf("The Given Number id Odd");
+return 0;
+}
