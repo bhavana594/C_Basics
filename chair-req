@@ -1,0 +1,13 @@
+//The coding class is very famous in T-Hub. This year X students joined his class and each student will require one chair to sit on. Chef already has Y chairs in his class. 
+//Determine the minimum number of new chairs T-Hub's manager must buy so that every student is able to get one chair tosit on
+#include <stdio.h>
+int main() {
+    int x, y;
+    scanf("%d %d", &x, &y);
+    int diff = x - y;
+    if (diff >= 0)
+        printf("%d", diff);
+    else
+        printf("0");
+    return 0;
+}
